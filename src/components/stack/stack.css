@@ -1,0 +1,55 @@
+.description{
+    width: 100%;
+}
+
+.accordion{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+   
+}
+.acc-div {
+    border:1px solid var(--light-blue);
+    border-radius: 3px;
+    width: 50%;
+    max-width: 60rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box-shadow);
+}
+.description-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-title h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+button.description-icon {
+    border: 1px solid var(--color-grey);
+    height:3rem;
+    width:3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .accordion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+     }
+}

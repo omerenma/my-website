@@ -1,0 +1,40 @@
+section#projects{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    text-align: center;
+    color: var(--color-white);
+ }
+ #projects{
+    margin-bottom: 1rem;
+ }
+ .social h2 {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin:1.5rem 0;
+    padding-bottom: 1rem;
+    position: relative;
+ }
+ .social h2::after{
+content: "";
+position:absolute;
+left: 50%;
+bottom: 0;
+width: 10%;
+height: 1px;
+background: var(--color-white);
+transform: translateX(-50%);
+ }
+ .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+ }
+ .social a {
+    margin: 1rem 2rem;
+    border:2px solid #fff;
+    border-radius: 5px;
+    width: 12rem;
+    padding:1rem;
+ }

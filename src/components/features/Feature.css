@@ -1,0 +1,37 @@
+
+.feature{
+  display: flex;
+  flex-direction: column;
+  
+}
+.feature-content{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.feature-icon{
+    margin-top: 2rem;
+
+}
+.inner-icon{
+ 
+}
+.feature-text h3{
+   
+}
+.feature-text{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:600px){
+   
+    .feature-content{
+       padding-left: 1rem;
+    }
+}
+@media  screen and (min-width:601px) and (max-width:769px) {
+    .feature-content{
+        background: red;
+     }
+}

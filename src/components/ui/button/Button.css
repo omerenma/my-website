@@ -1,0 +1,27 @@
+ a {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color:var(--color-white);
+    text-decoration: none;
+    margin-right: 1rem;
+
+}
+ a:hover{
+    color: orange;
+}
+a.btn {
+    border: 2px solid var(--color-white);
+    border-radius: 5px;
+    /* margin-left: 1rem; */
+    padding: 5px 8px;
+    font-weight: 500;
+}
+a.btn-dark {
+    border: 2px solid var(--color-white);
+    background-color: transparent;
+}
+a.btn-orange {
+    border: 2px solid transparent;
+    background-color: orange;
+    color: var(--color-white);
+}
