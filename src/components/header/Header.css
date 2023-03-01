@@ -70,13 +70,19 @@ div span {
 }
 
 @media screen and (max-width:479px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     #header{
         
     }
     .header-img{
         border-radius:100%; 
-        width:150px; 
-        height:150px;
+        width:200px; 
+        height:200px;
     }
 }
 @media screen and (max-width:769px){
