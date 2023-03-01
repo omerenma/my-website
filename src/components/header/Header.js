@@ -27,9 +27,9 @@ const Header = () => {
                 threshold={0.1}
                 rootMargin="20%"
                 >
-  Fullstack software engineer
+  Hi, I'm Kingsley a Full Stack engineer with 4+ years of experience working extensively with JavaScript and Typescript
 </AnimatedText>;
-            <span>With passion in build solutions that scale accross multiple platform</span>
+            <span>crafting solutions that scale across multiple platforms</span>
             {/* <p className='util-text-small util-text-light'>We are leaders in the Smart Attendance Managment System</p> */}
           </div>
         {/* <div className='header-cta'>
