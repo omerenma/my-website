@@ -1,8 +1,6 @@
 import React from 'react'
 import './Header.css'
-import phoneHeader from '../../assets/phone-header-bg.png'
 import pix from '../../assets/omerenma.jpg'
-import Button from '../ui/button/Button'
 import "../ui/button/Button.css"
 import {BsMouse} from 'react-icons/bs'
 import AnimatedText from 'react-animated-text-content';

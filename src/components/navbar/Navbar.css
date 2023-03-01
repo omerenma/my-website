@@ -57,9 +57,13 @@ a.btn-orange {
 .navbar .menu-icon{
     display: none;
 }
-@media screen and (max-width:769px){
-    .nav-btn{
-        display: none;
+
+@media screen and (max-width:479px){
+    .logo{
+        margin-left: 1rem;
+    }
+    menu{
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width:600px){
@@ -74,6 +78,11 @@ a.btn-orange {
     .navbar .menu-icon{
         display: block;
     }
+@media screen and (max-width:769px){
+    .nav-btn{
+        display: none;
+    }
+}
     .navbar #nav-links-mobile, #nav-links-mobile-hide {
         display: block;
         position: absolute;
