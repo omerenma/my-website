@@ -77,11 +77,11 @@ div span {
    .header-text{
     text-align: center;
    }
-    .header-img{
-        border-radius:100%; 
-        width:200px; 
-        height:200px;
-    }
+   .header-right img {
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
 }
 @media screen and (max-width:769px){
     #header {
