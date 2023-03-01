@@ -76,9 +76,9 @@ div span {
         justify-content: center;
         align-items: center;
     }
-    #header{
-        
-    }
+   .header-text{
+    text-align: center;
+   }
     .header-img{
         border-radius:100%; 
         width:200px; 
