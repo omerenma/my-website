@@ -17,7 +17,7 @@ const Navbar = () => {
           SMASF<span>X</span>
         </p>
       </div>
-      <menu>
+      <menu className='menu'>
         <ul className='nav-links' id={showMenu ? "nav-links-mobile" :"nav-links-mobile-hide"}>
           <li><a href='/'>Home</a></li>
           <li><a href='#features'>About me</a></li>
