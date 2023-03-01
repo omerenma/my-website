@@ -54,6 +54,11 @@ div span {
     transform: translateX(-50%);
     animation: bounce .8s ease infinite alternate;
 }
+.header-img{
+    border-radius:100%; 
+        width:300px; 
+        height:300px;
+}
 
 @keyframes bounce {
     0%{
@@ -66,7 +71,12 @@ div span {
 
 @media screen and (max-width:479px){
     #header{
-        background: white;
+        
+    }
+    .header-img{
+        border-radius:100%; 
+        width:150px; 
+        height:150px;
     }
 }
 @media screen and (max-width:769px){

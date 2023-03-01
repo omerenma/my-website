@@ -13,22 +13,22 @@ const Header = () => {
         <div className='header-left'>
           <div className='header-text'>
            <AnimatedText
-  type="words" // animate words or chars
-  animation={{
-    x: '200px',
-    y: '-20px',
-    scale: 1.1,
-    ease: 'ease-in-out',
-  }}
-  animationType="rifle"
-  interval={0.06}
-  duration={0.8}
-  tag="p"
-  className="animated-paragraph"
-  includeWhiteSpaces
-  threshold={0.1}
-  rootMargin="20%"
->
+                type="words" // animate words or chars
+                animation={{
+                  x: '200px',
+                  y: '-20px',
+                  scale: 1.1,
+                  ease: 'ease-in-out',
+                }}
+                animationType="rifle"
+                interval={0.06}
+                duration={0.8}
+                tag="p"
+                className="animated-paragraph"
+                includeWhiteSpaces
+                threshold={0.1}
+                rootMargin="20%"
+                >
   Fullstack software engineer
 </AnimatedText>;
             <span>With passion in build solutions that scale accross multiple platform</span>
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         </div>
         <div className='header-right'>
-          <img  src={pix} alt="logo" style={{borderRadius:'100%', width:"300px", height:"300px"}} />
+          <img  src={pix} alt="logo" className='header-img' />
         </div>
       </div>
       <div className='floating-icon'>
