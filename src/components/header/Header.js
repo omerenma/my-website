@@ -34,10 +34,10 @@ const Header = () => {
             <span>With passion in build solutions that scale accross multiple platform</span>
             {/* <p className='util-text-small util-text-light'>We are leaders in the Smart Attendance Managment System</p> */}
           </div>
-        <div className='header-cta'>
+        {/* <div className='header-cta'>
           <Button text={"Get Started"} btnClass="btn-dark" href={"#"} />
           <Button text={"How It Works"} btnClass="btn-orange" href={"#faq"} />
-        </div>
+        </div> */}
         </div>
         <div className='header-right'>
           <img  src={pix} alt="logo" className='header-img' />
