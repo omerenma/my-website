@@ -40,7 +40,7 @@ const Header = () => {
         </div> */}
         </div>
         <div className='header-right'>
-          <img  src={pix} alt="logo" className='header-img' />
+          <img  src={pix} alt="logo"  />
         </div>
       </div>
       <div className='floating-icon'>
