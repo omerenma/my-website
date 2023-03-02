@@ -19,14 +19,15 @@ const Navbar = () => {
       </div>
       <menu className='menu'>
         <ul className='nav-links' id={showMenu ? "nav-links-mobile" :"nav-links-mobile-hide"}>
-          <li><a href='/'>Home</a></li>
+          {/* <li className='nav-btn'><a btnClass={"btn-dark"} href='/'>Home</a></li> */}
+          <Button text="Home" href="/" btnClass={"btn-dark"}  />
           <li><a href='#features'>About me</a></li>
           <li><a href='#projects'>Projects</a></li>
           <li><a href='#social'>Social</a></li>
           <li><a href='#contact'>Contact</a></li>
-          <li className='nav-btn'>
+          {/* <li className='nav-btn'>
             <Button text="Get Started" href="#faq" btnClass={"btn-dark"}  />
-          </li>
+          </li> */}
         </ul>
       </menu>
       <div className='menu-icon' onClick={toggleMenu}>
