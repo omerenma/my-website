@@ -37,7 +37,6 @@
     #footer{
         background: var(--dark-blue);
         text-align: center;
-        background-color: red;
     }
     .footer-link a{
         color: var(--color-white);
