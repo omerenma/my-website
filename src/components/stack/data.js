@@ -1,17 +1,47 @@
 export const data = [
     {
         id:1,
-        title:'Lead Payroll',
-        description:"The lead payroll is....................................."
+        title:'JavaScript',
+        description:"5 years"
     },
     {
         id:2,
-        title:'Smart Attendance Management System SAMS',
-        description:"The Smart Attendance Management System SAMS is....................................."
+        title:'Typescript',
+        description:"2 years"
     },
     {
         id:3,
-        title:'Sabitrade',
-        description:"A B2B and B2C e-commerce application that connect businesses to business and businesses to customers with proximity functionality to show user/customers businesses with items/product/service of interest close to them"
+        title:'React.Js',
+        description:"4+ years"
+    },
+    {
+        id:4,
+        title:'Angular',
+        description:"2 years"
+    },
+    {
+        id:5,
+        title:'NodeJs',
+        description:"3 years"
+    },
+    {
+        id:6,
+        title:'Express.js',
+        description:"3 years"
+    },
+    {
+        id:7,
+        title:'Postgres',
+        description:"3 years"
+    },
+    {
+        id:8,
+        title:'Git',
+        description:"4+ years"
+    },
+    {
+        id:9,
+        title:'Automated testing',
+        description:"Jest, Enzyme and Jasmine"
     }
 ]

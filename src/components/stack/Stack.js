@@ -7,7 +7,7 @@ import { data } from './data'
 const Stack = () => {
   return (
     <section id='section'>
-    <div className='container footer'>
+    <div className='container stack'>
       <div className='u-title'>
       <BsFillBriefcaseFill size={30} color="orange" />
       <h2>Stack</h2>
@@ -17,7 +17,13 @@ const Stack = () => {
           </p>
         </div>
           <div className='description-div'>
-            <Description title="" data={data} />
+          {
+            data.map(item => (
+              
+                <Description key={item.id} title={item.title} description={item.description} />
+
+            ))
+          }
           </div>
     </div>
     </section>

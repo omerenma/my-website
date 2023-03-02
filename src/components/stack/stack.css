@@ -1,19 +1,27 @@
-.description{
+.stack{
     width: 100%;
+}
+.description-div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+  
+}
+.description{
+    
+  
+    
 }
 
 .accordion{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   
-   
+   /* display: flex; 
+   width: 100%; */
 }
 .acc-div {
     border:1px solid var(--light-blue);
     border-radius: 3px;
-    width: 50%;
-    max-width: 60rem;
+    width: 480px;
+    /* max-width: 60rem; */
     padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -42,6 +50,7 @@ button.description-icon {
     align-items: center;
     cursor: pointer;
 }
+
 
 @media screen and (max-width:600px){
     .accordion{
