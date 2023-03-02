@@ -9,6 +9,7 @@ import {
   Contact,
   Footer
 } from './components/index'
+import ScrollToTopButton from './components/ui/button/ScrollToTopButton';
 function App() {
   return (
     <main>
@@ -22,7 +23,7 @@ function App() {
       <Project />
       {/* <Contact /> */}
       <Footer />
-      
+      < ScrollToTopButton />
     </main>
   );
 }
