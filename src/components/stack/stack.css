@@ -51,7 +51,21 @@ button.description-icon {
     cursor: pointer;
 }
 
+@media screen and (max-width:479px){
+    .acc-div {
+        border:1px solid var(--light-blue);
+        border-radius: 3px;
+        width: 200px;
+        /* max-width: 60rem; */
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+        box-shadow: var(--box-shadow);
+    }
 
+}
 @media screen and (max-width:600px){
     .accordion{
         display: flex;
