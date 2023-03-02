@@ -43,5 +43,10 @@ export const data = [
         id:9,
         title:'Automated testing',
         description:"Jest, Enzyme and Jasmine"
+    },
+    {
+        id:10,
+        title:'AWS',
+        description:"1+ years"
     }
 ]
