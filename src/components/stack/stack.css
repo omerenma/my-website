@@ -94,7 +94,7 @@ button.description-icon {
     .acc-div {
         border:1px solid var(--light-blue);
         border-radius: 3px;
-        width: 400px;
+        width: 350px;
         /* max-width: 60rem; */
         padding-top: 1rem;
         padding-left: 1rem;
