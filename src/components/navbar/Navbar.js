@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='logo'>
         <SiAlfaromeo color='#fff' size={33} />
         <p className='logo-text'>
-          SMASF<span>X</span>
+          KingDev<span>X</span>
         </p>
       </div>
       <menu className='menu'>
