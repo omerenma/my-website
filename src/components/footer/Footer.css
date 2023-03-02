@@ -44,4 +44,11 @@
         text-align: left;
         font-size: 10px;
     }
+    .footer-box h2{
+       font-size: 15px;
+    }
+    .footer-link span{
+        font-size: 10px;
+        font-weight: 300;
+    }
 }
