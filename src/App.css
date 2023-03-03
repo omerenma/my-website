@@ -42,3 +42,8 @@
   min-height: 100vh;
   background: var(--dark-blue);
 }
+@media screen and (max-width:479px){
+  .main{
+    overflow-x: hidden;
+  }
+}

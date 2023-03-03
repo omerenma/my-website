@@ -11,7 +11,7 @@ import {
 import ScrollToTopButton from './components/ui/button/ScrollToTopButton';
 function App() {
   return (
-    <main>
+    <main className='main'>
       <header className='header-bg' >
       <Navbar />
       <Header />
