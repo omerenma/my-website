@@ -21,7 +21,8 @@ const Navbar = () => {
         <ul className='nav-links' id={showMenu ? "nav-links-mobile" :"nav-links-mobile-hide"}>
           {/* <li className='nav-btn'><a btnClass={"btn-dark"} href='/'>Home</a></li> */}
           <Button text="Home" href="/" btnClass={"btn-dark"}  />
-          <li><a href='#features'>About me</a></li>
+          <li><a href='#abouts'>About</a></li>
+          <li><a href='#stack'>Stack</a></li>
           <li><a href='#projects'>Projects</a></li>
           <li><a href='#social'>Social</a></li>
           <li><a href='#contact'>Contact</a></li>

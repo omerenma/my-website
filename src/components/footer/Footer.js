@@ -12,7 +12,7 @@ const Footer = () => {
         <h2><BiNavigation color='orange' /></h2>
           <div className='footer-link'>
             <a href='/'>Home</a>
-            <a href='#about'>About</a>
+            <a href='#abouts'>About</a>
             <a href='#projects'>Project</a>
             <a href='#social'>Social</a>
           </div>

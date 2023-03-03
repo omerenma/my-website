@@ -34,12 +34,21 @@ const handleScrollToTop = () => {
   return (
     <>
       {isVisible && (
-        <button className="scroll-to-top-btn" style={{border:'none', background:"transparent", position:'fixed', right:0,bottom:10}} onClick={handleScrollToTop}>
+        <button className="scroll-to-top-btn" style={styles} onClick={handleScrollToTop}>
          <BsArrowUpCircle color="orange" size={30}/>
         </button>
       )}
     </>
   );
 }
+
+export const styles = {
+    border:'none',
+    background:'transparent', 
+    position:'fixed',
+    right:0,
+    bottom:10
+}
+
 
 export default ScrollToTopButton;

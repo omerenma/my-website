@@ -25,3 +25,14 @@ a.btn-orange {
     background-color: orange;
     color: var(--color-white);
 }
+
+@media screen and (max-width:479px){
+    .scroll-to-top-btn{
+        border:none;
+        background:transparent; 
+        position:fixed;
+        right:0;
+        bottom:10;
+        margin-right: 20px;
+    }
+}

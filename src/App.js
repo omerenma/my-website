@@ -2,11 +2,10 @@ import './App.css';
 import {
   Navbar,
   Header, 
-  Features, 
+  About, 
   Project,
   Social, 
   Stack, 
-  Contact,
   Footer
 } from './components/index'
 import ScrollToTopButton from './components/ui/button/ScrollToTopButton';
@@ -17,13 +16,13 @@ function App() {
       <Navbar />
       <Header />
       </header>
-      <Features />
+      <About />
       <Social />
       <Stack />
       <Project />
       {/* <Contact /> */}
       <Footer />
-      < ScrollToTopButton />
+      < ScrollToTopButton  />
     </main>
   );
 }

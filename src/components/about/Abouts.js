@@ -1,11 +1,10 @@
 import React from 'react'
 import {BsFillBookFill} from 'react-icons/bs'
-import phoneFeatures from '../../assets/phone-features.png'
 import pix from '../../assets/omerenma.jpg'
-import Feature from './Feature'
-import './features.css'
+import About from './About'
+import './abouts.css'
 
-const Features = () => {
+const Abouts = () => {
   return (
     <section id='features'>
       <div className='container features '>
@@ -23,7 +22,7 @@ const Features = () => {
               <img src={pix} alt="phone" className='img' />
           </div>
           <div className='features-right'>
-            <Feature />
+            <About />
           </div>
         </div>
       </div>
@@ -31,4 +30,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default Abouts

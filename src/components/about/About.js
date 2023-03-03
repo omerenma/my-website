@@ -1,9 +1,9 @@
 import React from 'react'
 import {FcCheckmark} from 'react-icons/fc'
-import "./Feature.css"
+import "./about.css"
 
 
-const Feature = () => {
+const About = () => {
   return (
     <div className='feature'>
     <div className='feature-content'>
@@ -50,4 +50,4 @@ const Feature = () => {
   )
 }
 
-export default Feature
+export default About
