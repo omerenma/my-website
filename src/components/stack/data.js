@@ -48,5 +48,10 @@ export const data = [
         id:10,
         title:'AWS',
         description:"1+ years"
+    },
+    {
+        id:10,
+        title:'CI/CD',
+        description:"Continous Integration and Continous Delivery using github workflow action"
     }
 ]
