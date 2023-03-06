@@ -1,6 +1,6 @@
 export {default as Navbar} from './navbar/Navbar';
 export {default as Header} from './header/Header';
-export {default as About} from './about/Abouts'
+export {default as Abouts} from './about/RenderAbout'
 export {default as Social} from './social/Social'
 export {default as Stack} from './stack/Stack'
 export {default as Faq} from './faq/Faq';

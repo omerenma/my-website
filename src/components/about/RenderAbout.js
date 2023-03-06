@@ -6,7 +6,7 @@ import './abouts.css'
 
 const Abouts = () => {
   return (
-    <section id='features'>
+    <section id='about'>
       <div className='container features '>
         <div className='u-title'>
           <BsFillBookFill color="orange" size={30} />

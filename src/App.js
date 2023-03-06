@@ -2,7 +2,7 @@ import './App.css';
 import {
   Navbar,
   Header, 
-  About, 
+  Abouts, 
   Project,
   Social, 
   Stack, 
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Header />
       </header>
-      <About />
+      <Abouts />
       <Social />
       <Stack />
       <Project />

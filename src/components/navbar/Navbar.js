@@ -20,8 +20,8 @@ const Navbar = () => {
       <menu className='menu'>
         <ul className='nav-links' id={showMenu ? "nav-links-mobile" :"nav-links-mobile-hide"}>
           {/* <li className='nav-btn'><a btnClass={"btn-dark"} href='/'>Home</a></li> */}
-          <Button text="Home" href="/" btnClass={"btn-dark"}  />
-          <li><a href='#abouts'>About</a></li>
+          {/* <Button text="Home" href="/" btnClass={"btn-dark"}  /> */}
+          <li><a href='#about'>About</a></li>
           <li><a href='#stack'>Stack</a></li>
           <li><a href='#projects'>Projects</a></li>
           <li><a href='#social'>Social</a></li>

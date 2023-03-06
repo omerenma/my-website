@@ -6,7 +6,7 @@ import { data } from './data'
 
 const Stack = () => {
   return (
-    <section id='section'>
+    <section id='stack'>
     <div className='container stack'>
       <div className='u-title'>
       <BsFillBriefcaseFill size={30} color="orange" />
