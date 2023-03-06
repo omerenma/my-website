@@ -11,8 +11,8 @@ const Footer = () => {
         <div className='footer-box'>
         <h2><BiNavigation color='orange' /></h2>
           <div className='footer-link'>
-            <a href='/'>Home</a>
-            <a href='#abouts'>About</a>
+            {/* <a href='/'>Home</a> */}
+            <a href='#about'>About</a>
             <a href='#projects'>Project</a>
             <a href='#social'>Social</a>
           </div>
@@ -20,16 +20,16 @@ const Footer = () => {
         <div className='footer-box'>
         <h2><FaGlobe color='orange' /></h2>
           <div className='footer-link'>
-            <a href='/'>Github</a>
-            <a href='#about'>Linkedin</a>
+            <a href='https://github.com/omerenma'>Github</a>
+            <a href='https://linkedin.com/in/omerenma2018'>Linkedin</a>
             <a href='#social'>Social</a>
           </div>
         </div>
         <div className='footer-box'>
         <h2><FcContacts color='orange' /></h2>
           <div className='footer-link'>
-            <a href='/'><span><FaPhoneAlt color='orange' /></span>+2348130299583</a>
-            <a href='#about'><span><FaEnvelope color='orange' /></span>Godwin2341@gmail.com</a>
+            <a href='#'><span><FaPhoneAlt color='orange' /></span>+2348130299583</a>
+            <a href='#'><span><FaEnvelope color='orange' /></span>Godwin2341@gmail.com</a>
           </div>
         </div>
 
