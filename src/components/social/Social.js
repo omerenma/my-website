@@ -10,7 +10,7 @@ const Social = () => {
     <section id='social'>
       <div className='container social'>
     <h2>SOCAIL LINKS</h2>
-    <p className='u-text-small u-text-light'>Follow links to visit my social platforms</p>
+    <p className='u-text-small u-text-light' style={{color:'white'}}>Follow links to visit my social platforms</p>
     <div className='social-icons'>
     <IconContext.Provider value={{size:'15', color:'white'}}>
       <div className='social-icon'>
