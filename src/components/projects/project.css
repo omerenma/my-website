@@ -25,11 +25,13 @@ height: 1px;
 background: var(--color-white);
 transform: translateX(-50%);
  }
- .social-icon{
+ .social-icon a{
     display: flex;
     justify-content: center;
     align-items: center;
     margin:2rem;
+    min-width: 300px;
+    
  }
  .social a {
     margin: 1rem 2rem;
