@@ -16,3 +16,11 @@
     font-size: 10px;
     font-weight: 600;
 }
+@media screen and (max-width:479px){
+    .learning{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 20px;
+    }
+}
