@@ -65,6 +65,16 @@ a.btn-orange {
     .menu-icon{
         margin-right: 1rem;
     }
+    .logo-text{
+        font-size: 16px;
+        font-weight: 300;
+        color: var(--color-white);
+        display: none;
+    }
+    .nav-icon{
+        font-size: 10px;
+        display: none;
+    }
 }
 
 

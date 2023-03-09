@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className='container navbar'>
       <div className='logo'>
-        <SiAlfaromeo color='#fff' size={33} />
+        <SiAlfaromeo color='#fff' size={33} className="nav-icon" />
         <p className='logo-text'>
           KingDev<span>X</span>
         </p>
