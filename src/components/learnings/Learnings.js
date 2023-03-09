@@ -4,7 +4,7 @@ import './learnings.css'
 const Learnings = () => {
   return (
     <section id='learnings'>
-      <h1>My Learnings</h1>
+      <h1>Certificates and Awards</h1>
      <div className='learning'>
         <div>
         <p className='program'>Udacity Nanodegree program</p>
