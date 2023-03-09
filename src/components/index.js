@@ -7,3 +7,4 @@ export {default as Faq} from './faq/Faq';
 export {default as Footer} from './footer/Footer'
 export {default as Project} from './projects/Projects'
 export {default as Contact} from './contact/Contact'
+export {default as Learnings} from './learnings/Learnings'

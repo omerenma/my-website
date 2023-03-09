@@ -1,0 +1,18 @@
+#learnings{
+    text-align: center;
+}
+.learning{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.program{
+    font-weight: bold;
+    font-size: 15px;
+    color: orange;
+}
+.link{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+}

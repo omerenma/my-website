@@ -4,9 +4,12 @@ import pix from '../../assets/omerenma.jpg'
 import "../ui/button/Button.css"
 import {BsMouse} from 'react-icons/bs'
 import AnimatedText from 'react-animated-text-content';
+import { useContextGreet } from '../UseContext'
+import PassDownContext from '../UseContext'
 const Header = () => {
   return (
     <section id='header'>
+    
       <div className='container header'>
         <div className='header-left'>
           <div className='header-text'>
@@ -41,11 +44,14 @@ const Header = () => {
           <img  src={pix} alt="logo"  />
         </div>
       </div>
-      <div className='floating-icon'>
+       <div className='floating-icon'>
+   
           <BsMouse color='#fff' size={25} className='mouse' />
         <a href='features'  >
         </a>
       </div>
+
+      
     </section>
   )
 }

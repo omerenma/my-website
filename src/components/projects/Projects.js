@@ -18,6 +18,7 @@ const Projects = () => {
        <a href='https://leadpayroll.com'>Lead Payroll</a> 
        <a href='https://samsplc.com'>SAMSNG</a>
        <a href='https://www.octopusdms.com/'>Octopus DMS</a>
+       <a href='/#'>Sabitrade mobile application</a>
       </div>
     </IconContext.Provider>
     </div>

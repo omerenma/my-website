@@ -6,7 +6,8 @@ import {
   Project,
   Social, 
   Stack, 
-  Footer
+  Footer,
+  Learnings
 } from './components/index'
 import ScrollToTopButton from './components/ui/button/ScrollToTopButton';
 function App() {
@@ -17,10 +18,10 @@ function App() {
       <Header />
       </header>
       <Abouts />
+    <Learnings />
       <Social />
       <Stack />
       <Project />
-      {/* <Contact /> */}
       <Footer />
       < ScrollToTopButton  />
     </main>
