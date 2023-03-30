@@ -12,9 +12,8 @@ const Abouts = () => {
           <BsFillBookFill color="orange" size={30} />
           <h2>Just a little about me</h2>
           <p className='u-text-small u-text-light responsive-style'>
-          Hi, I'm Kingsley, a Full Stack software Engineer who is passionate about building solutions that scales across multiple platforms.
-        I recently developed a full stack B2B and B2C e-commerce application using Node.js with Typescript and Angular that connects  businesses to customers with proximity functionality to show users and customers businesses with products of interest close to them.
-      I work with JavaScript | Typescript | React | React-Native | Angular
+          Kingsley is a talented software developer with 4+ years of experience working on a variety of projects. He is a specialist in front-end development with JavaScript, Typescript, React.JS, Angular and other related technologies and frameworks. He holds a Bachelor’s Degree in Chemistry and has undergone several software development courses at Udacity with verifiable links to certificate of completion. He has experience working in small and medium-sized companies building complex front-end solutions. For Kingsley TDD is a must, he has vast experience working with unit tests using tools such as Jest, Jasmine and Cypress.
+Kingsley is skilled at communicating with the diverse parties involved in the development process to efficiently solve problems. He is passionate about his work and adapts quickly to new technologies, constantly looking to improve and learn. His experience allows him to get involved in the full development process from planning to deployment.
           </p>
         </div>
         <div className='features-content'>
